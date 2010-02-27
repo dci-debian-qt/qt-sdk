@@ -1,5 +1,5 @@
-qt-sdk (0ubuntu1) karmic; urgency=low
+qt-sdk (1) unstable; urgency=low
 
-  * Initial Package
+  * Initial release.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2009 17:38:25 +0100
+ -- Fathi Boudra <fabo@debian.org>  Sat, 27 Feb 2010 20:47:57 +0100
