@@ -13,5 +13,5 @@ Depends: ${misc:Depends}, build-essential, cmake, gdb, git-core, libqt4-dev,
  qt4-doc-html, qt4-qmake, qtcreator, qtcreator-doc, subversion
 Suggests: libqt4-dbg, libqt4-webkit-dbg, libqt4-xmlpatterns-dbg
 Description: Complete Qt Software Development Kit
- This meta-package provides a complete Qt Software Development Kit.
+ This metapackage provides a complete Qt Software Development Kit.
  Tools cover IDE, revision control, debugging and documentation.
