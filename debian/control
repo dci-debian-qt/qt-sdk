@@ -9,7 +9,7 @@ Standards-Version: 3.8.4
 Package: qt-sdk
 Architecture: all
 Depends: ${misc:Depends}, build-essential, cmake, gdb, git-core, libqt4-dev,
- libqt4-opengl-dev, libqt4-phonon-dev, qt4-designer, qt4-dev-tools, qt4-doc,
+ libqt4-opengl-dev, libphonon-dev, qt4-designer, qt4-dev-tools, qt4-doc,
  qt4-doc-html, qt4-qmake, qtcreator, qtcreator-doc, subversion
 Suggests: libqt4-dbg, libqt4-webkit-dbg, libqt4-xmlpatterns-dbg
 Description: Complete Qt Software Development Kit
