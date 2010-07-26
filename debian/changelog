@@ -4,7 +4,7 @@ qt-sdk (3) UNRELEASED; urgency=low
   * Fix lintian warnings.
 
   [ Modestas Vainius ]
-  * Fix debian/control Vcs fields to point to the new location.
+  * Add Vcs fields to debian/control.
 
  -- Fathi Boudra <fabo@debian.org>  Tue, 20 Apr 2010 09:07:06 +0300
 
