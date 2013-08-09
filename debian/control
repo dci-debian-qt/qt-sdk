@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.4
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qt-sdk.git
@@ -21,9 +21,22 @@ Package: qt4-sdk
 Architecture: all
 Breaks: qt-sdk (<< 3~)
 Replaces: qt-sdk (<< 3~)
-Depends: ${misc:Depends}, build-essential, cmake, gdb, git-core, libqt4-dev,
- libqt4-opengl-dev, libphonon-dev, qt4-designer, qt4-dev-tools, qt4-doc,
- qt4-doc-html, qt4-qmake, qtcreator, qtcreator-doc, subversion
+Depends: build-essential,
+         cmake,
+         gdb,
+         git-core,
+         libphonon-dev,
+         libqt4-dev,
+         libqt4-opengl-dev,
+         qt4-designer,
+         qt4-dev-tools,
+         qt4-doc,
+         qt4-doc-html,
+         qt4-qmake,
+         qtcreator,
+         qtcreator-doc,
+         subversion,
+         ${misc:Depends}
 Suggests: libqt4-dbg, libqt4-webkit-dbg, libqt4-xmlpatterns-dbg
 Description: Complete Qt 4 Software Development Kit
  This metapackage provides a complete Qt 4 Software Development Kit.
@@ -33,17 +46,17 @@ Package: libqt5-dev
 Architecture: all
 Section: libdevel
 Depends: libqt5opengl5-dev,
- libqt5svg5-dev,
- libqt5v8-5-dev,
- libqt5webkit5-dev,
- libqt5x11extras-dev,
- libqt5xmlpatterns5-dev,
- qtbase5-dev,
- qtdeclarative5-dev,
- qtmultimedia5-dev,
- qtquick1-5-dev,
- qtscript5-dev,
- qttools5-dev
+         libqt5svg5-dev,
+         libqt5v8-5-dev,
+         libqt5webkit5-dev,
+         libqt5x11extras-dev,
+         libqt5xmlpatterns5-dev,
+         qtbase5-dev,
+         qtdeclarative5-dev,
+         qtmultimedia5-dev,
+         qtquick1-5-dev,
+         qtscript5-dev,
+         qttools5-dev
 Description: Qt 5 development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
