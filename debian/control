@@ -28,3 +28,25 @@ Suggests: libqt4-dbg, libqt4-webkit-dbg, libqt4-xmlpatterns-dbg
 Description: Complete Qt 4 Software Development Kit
  This metapackage provides a complete Qt 4 Software Development Kit.
  Tools cover IDE, revision control, debugging and documentation.
+
+Package: libqt5-dev
+Architecture: all
+Section: libdevel
+Depends: libqt5opengl5-dev,
+ libqt5svg5-dev,
+ libqt5v8-5-dev,
+ libqt5webkit5-dev,
+ libqt5x11extras-dev,
+ libqt5xmlpatterns5-dev,
+ qtbase5-dev,
+ qtdeclarative5-dev,
+ qtmultimedia5-dev,
+ qtquick1-5-dev,
+ qtscript5-dev,
+ qttools5-dev
+Description: Qt 5 development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains all the header development files used for building Qt 5
+ applications.
