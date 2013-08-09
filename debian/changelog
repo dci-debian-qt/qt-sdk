@@ -14,6 +14,7 @@ qt-sdk (3) UNRELEASED; urgency=low
     - Make qt4-sdk break and replace qt-sdk.
   * Create libqt5-dev, depending on all the development headers of the
     different Qt 5 submodules available.
+  * Add qtchooser as qt4-sdk's build dependency.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:18:10 -0300
 
