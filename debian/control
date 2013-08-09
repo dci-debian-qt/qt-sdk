@@ -6,8 +6,8 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.4
-Vcs-Git: git://git.debian.org/pkg-kde/qt/qt-sdk.git
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qt-sdk.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qt-sdk.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qt-sdk.git;a=summary
 
 Package: qt-sdk
 Architecture: any
