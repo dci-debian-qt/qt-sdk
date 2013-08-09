@@ -98,5 +98,5 @@ Description: Qt 5 development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains all the header development files used for building Qt 5
- applications.
+ This metapackage depends on all the header development files used for
+ building Qt 5 applications.
