@@ -1,4 +1,4 @@
-qt-sdk (3) UNRELEASED; urgency=low
+qt-sdk (3) experimental; urgency=low
 
   [ Fathi Boudra ]
   * Fix lintian warnings.
@@ -13,13 +13,13 @@ qt-sdk (3) UNRELEASED; urgency=low
     - Make qt-sdk a transitional dummy package.
     - Make qt4-sdk break and replace qt-sdk.
   * Create libqt5-dev, depending on all the development headers of the
-    different Qt 5 submodules available.
+    different Qt 5 submodules available (Closes: #718343).
   * Add qtchooser as qt4-sdk's build dependency.
   * Create qt5-sdk.
   * Use canonical VCS headers.
   * Bump standars version to 3.9.4, no changes required.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:18:10 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:49:17 -0300
 
 qt-sdk (2) unstable; urgency=low
 
