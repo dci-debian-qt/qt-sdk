@@ -1,4 +1,4 @@
-qt-sdk (4) UNRELEASED; urgency=low
+qt-sdk (3) UNRELEASED; urgency=low
 
   [ Fathi Boudra ]
   * Fix lintian warnings.
