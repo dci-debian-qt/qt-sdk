@@ -43,6 +43,41 @@ Description: Complete Qt 4 Software Development Kit
  This metapackage provides a complete Qt 4 Software Development Kit.
  Tools cover IDE, revision control, debugging and documentation.
 
+Package: qt5-sdk
+Architecture: all
+Depends: build-essential,
+         cmake,
+         gdb,
+         git-core,
+         libphonon-dev,
+         libqt5-dev,
+         qt5-doc,
+         qt5-doc-html,
+         qt5-qmake,
+         qtbase5-dev-tools,
+         qtchooser,
+         qtcreator,
+         qtcreator-doc,
+         qtdeclarative5-dev-tools,
+         qttools5-dev-tools,
+         qtxmlpatterns5-dev-tools,
+         subversion,
+         ${misc:Depends}
+Suggests: libqt5v8-5-dbg,
+          libqt5webkit5-dbg,
+          qtbase5-dbg,
+          qtdeclarative5-dbg,
+          qtmultimedia5-dbg,
+          qtquick1-5-dbg,
+          qtscript5-dbg,
+          qtsvg5-dbg,
+          qttools5-dbg,
+          qtx11extras5-dbg,
+          qtxmlpatterns5-dbg
+Description: Complete Qt 5 Software Development Kit
+ This metapackage provides a complete Qt 5 Software Development Kit.
+ Tools cover IDE, revision control, debugging and documentation.
+
 Package: libqt5-dev
 Architecture: all
 Section: libdevel
