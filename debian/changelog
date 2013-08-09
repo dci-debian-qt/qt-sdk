@@ -8,8 +8,12 @@ qt-sdk (3) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
+  * Create qt4-sdk:
+    - Move qt-sdk stuff to this new package.
+    - Make qt-sdk a transitional dummy package.
+    - Make qt4-sdk break and replace qt-sdk.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:12:00 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:18:10 -0300
 
 qt-sdk (2) unstable; urgency=low
 

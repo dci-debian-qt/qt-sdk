@@ -10,11 +10,21 @@ Vcs-Git: git://git.debian.org/pkg-kde/qt/qt-sdk.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qt-sdk.git;a=summary
 
 Package: qt-sdk
+Architecture: any
+Depends: qt4-sdk
+Section: oldlibs
+Description: transitional dummy package for qt4-sdk
+ This is a transitional dummy package that depends on qt4-sdk.
+ It can be safely removed.
+
+Package: qt4-sdk
 Architecture: all
+Breaks: qt-sdk (<< 3~)
+Replaces: qt-sdk (<< 3~)
 Depends: ${misc:Depends}, build-essential, cmake, gdb, git-core, libqt4-dev,
  libqt4-opengl-dev, libphonon-dev, qt4-designer, qt4-dev-tools, qt4-doc,
  qt4-doc-html, qt4-qmake, qtcreator, qtcreator-doc, subversion
 Suggests: libqt4-dbg, libqt4-webkit-dbg, libqt4-xmlpatterns-dbg
-Description: Complete Qt Software Development Kit
- This metapackage provides a complete Qt Software Development Kit.
+Description: Complete Qt 4 Software Development Kit
+ This metapackage provides a complete Qt 4 Software Development Kit.
  Tools cover IDE, revision control, debugging and documentation.
