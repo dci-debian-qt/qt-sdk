@@ -19,7 +19,7 @@ qt-sdk (3) experimental; urgency=low
   * Use canonical VCS headers.
   * Bump standars version to 3.9.4, no changes required.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:49:17 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:50:52 -0300
 
 qt-sdk (2) unstable; urgency=low
 
