@@ -17,6 +17,7 @@ qt-sdk (3) UNRELEASED; urgency=low
   * Add qtchooser as qt4-sdk's build dependency.
   * Create qt5-sdk.
   * Use canonical VCS headers.
+  * Bump standars version to 3.9.4, no changes required.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:18:10 -0300
 
