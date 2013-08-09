@@ -1,4 +1,4 @@
-qt-sdk (3) UNRELEASED; urgency=low
+qt-sdk (4) UNRELEASED; urgency=low
 
   [ Fathi Boudra ]
   * Fix lintian warnings.
@@ -6,7 +6,10 @@ qt-sdk (3) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Add Vcs fields to debian/control.
 
- -- Fathi Boudra <fabo@debian.org>  Tue, 20 Apr 2010 09:07:06 +0300
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add myself to Uploaders.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 10:12:00 -0300
 
 qt-sdk (2) unstable; urgency=low
 
